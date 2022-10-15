@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.bg-color{
+    background-color: rgb(29, 26, 26);
+    height:100vh;
+}
+.navbar{
+    padding: 20px 20px;
+}
+.logo{
+    color: white;
+    float: left;
+    font-size: 40px;
+    font-family: 'Comfortaa', cursive;
+}
+.logo .way{
+    color: #8c66e4;
+    font-weight: bolder;
+}
+.nav-content{
+    float: right;
+    padding-right: 20px;
+}
+.nav-content a{
+    text-decoration: none;
+    color: white;
+    padding-right: 30px;
+    transition: 0.2s;
+    font-weight: 800;
+    letter-spacing: 4px;
+    font-size: 17px;
+}
+.nav-content a:hover{
+    color:#8c66e4;
+}
+.contact{
+    position: absolute;
+    padding-top:250px;
+    padding-left: 300px;
+    width: 400px;
+    color: white;
+}
+.contact h1{
+    color:#8c66e4;
+    font-size: 50px;
+    line-height: 2;
+    letter-spacing: 5px;
+}
+.contact p{
+    line-height: 1.5;
+    padding-left:10px;
+}
+
+.gmaail{
+    padding-left:10px;
+    font-size: 20px;
+    padding-top:20px;
+    transition: 0.3s;
+    letter-spacing: 1.3px;
+    cursor: pointer;
+}
+.gmaail:hover{
+    color:#8c66e4;
+}
+td img{
+    width:30px;
+    height:30px;
+    padding-top:17px;
+}
+
+
+/* form */
+.input-area{
+    padding: 20px 30px;
+    border:none;
+    border-bottom: 2px solid white;
+    outline: none;
+    background-color:transparent;
+    margin-left:14px;
+    color:white;
+    text-align: center;
+    padding-right: 100px;
+    font-size: 20px;
+    
+}
+.input-area::placeholder{
+    color: white;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.name,.email{
+    padding-bottom: 40px;
+}
+
+.btnn{
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.btnn button{
+    padding: 20px 30px;
+    width: 380px;
+    font-size: 30px;
+    background-color: #8c66e4;
+    color:white;
+    transition: 0.3s;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.btnn button:hover{
+    background-color: transparent;
+    border:3px solid #8c66e4;
+}
+.contact-form{
+    position:absolute;
+    padding-top: 200px;
+    margin-left: 900px;
+} 

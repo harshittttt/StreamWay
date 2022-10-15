@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreamWay</title>
+    <link rel="stylesheet" href="loginPage.css">
+</head>
+
+<body>
+    <section class="fullimg">
+        <div class="navbar">
+            <div class="logo">
+                Stream<span class="way">Way</span>
+            </div>
+            <div class="nav-content">
+                <a href="index.html">Home</a>
+                <a href="signUp.html">Register</a>
+                <a href="aboutUs.html">About Us</a>
+                <a href="contactUs.html">Contact</a>
+            </div>
+        </div>
+
+
+        <div class="login-form">
+            <form>
+                <div class="user">
+                    <img src="Images/username.jfif">
+                    <input type="text" name="username" placeholder="Username" class="input-area">
+                </div>
+                <div class="pass">
+                    <img src="Images/password.jpg">
+                    <input type="password" name="password" placeholder="Password" class="input-area">
+                </div>
+                <div class="btnn">
+                    <a href="#"><button onclick="login()">Get Started</button></a>
+                </div>
+                
+
+            </form>
+            <div class="forgot-pass">
+                <a href="#">Forgot Password?</a>
+            </div>
+            <div class="create-account">
+                Don't have an account? <a href="signUp.html"><button class="sign-up">Sign Up</button></a>
+            </div>
+        </div>
+
+    </section>
+
+<script>
+    function login(){
+        window.alert("Loged In Successfully.");
+        window.open("index.html","_self");
+    }
+</script>
+
+</body>
+
+</html>

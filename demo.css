@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.fullimg{
+    background: url(Images/demo-bg.webp);
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+}
+.navbar{
+    padding: 20px 20px;
+}
+.logo{
+    color: black;
+    float: left;
+    font-size: 40px;
+    font-family: 'Comfortaa', cursive;
+}
+.logo .way{
+    color: #8c66e4;
+    font-weight: bolder;
+}
+.nav-content{
+    float: right;
+    margin-right: 7px;
+}
+
+.navbtn {
+    border: 2px solid black;
+    background-color: black;
+    padding: 6px 5px;
+    border-radius: 10%;
+    font-size: 20px;
+    color: white;
+    transition: 0.3s;
+    font-weight: bold;
+}
+.navbtn:hover{
+    color:#8c66e4;
+}
+
+.loginbtn:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.demo-img{
+    clear: both;
+    text-align: center;
+}
+
+.demo-img img{
+    width: 250px;
+    height: 100px;
+}
+
+
+.left-video{
+    float:left;
+    width:45%;
+    height:60vh;
+    margin-left:30px;
+    margin-top:80px;
+
+}
+.right-video{
+    float:left;
+    width:25%;
+    height:60vh;
+    margin-left:30px;
+    margin-top:80px;
+    overflow: hidden;
+}
+.right-top-video{
+    width:100%;
+    height: 50%;
+    padding-bottom:2%;
+}
+.right-bottom-video{
+    width:100%;
+    height: 50%;
+}

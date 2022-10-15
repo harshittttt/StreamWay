@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:wght@300&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+
+.bg-color{
+    background-color: black;
+    /* height:1000vh; */
+}
+.navbar{
+    padding: 20px 20px;
+}
+.logo{
+    color: white;
+    float: left;
+    font-size: 40px;
+    font-family: 'Comfortaa', cursive;
+}
+.logo .way{
+    color:#8c66e4;
+    font-weight: bolder;
+}
+.nav-content{
+    float: right;
+    padding-right: 20px;
+}
+.nav-content a{
+    text-decoration: none;
+    color: white;
+    padding-right: 30px;
+    transition: 0.2s;
+    font-weight: 800;
+    letter-spacing: 4px;
+    font-size: 17px;
+}
+.nav-content a:hover{
+    color:#8c66e4;
+}
+
+
+/* Top brands */
+
+.heading{
+    background:url("Images/audio-bg.png");
+    background-position: center;
+    background-size: cover;
+    height:300px;
+    clear:both;
+    
+}
+.heading p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    font-size: 70px;
+    color:#8c66e4;
+    font-weight: bolder;
+}
+.top-brands{
+    padding-top: 60px;
+}
+.top-brands p{
+    color: white;
+    margin: 30px;
+    font-size: 25px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+/* .viewmore{
+    text-decoration: none;
+    margin-top: 200px;
+    color: blue;
+    transition: 0.3s;
+}
+.viewmore:hover{
+    color: white;
+} */
+.brand-names{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    column-gap: 100px;
+    row-gap: 30px;
+    padding: 0 130px 0 130px;
+}
+.brands{
+    border: 2px solid white;
+    border-radius: 4px;
+    height: 180px;
+    width: 200px;
+    margin-bottom: 30px;
+    
+}
+.brands img{
+    height: 140px;
+    width: 170px;
+    margin-left:50%;
+    margin-top: 50%;
+    transform:translate(-50%,-50%);
+    transition: 0.3s;
+}
+.brands img:hover{
+    height: 160px;
+    width: 190px;
+}
+
+/* Top Picks */
+.top-picks{
+    padding-top: 60px;
+}
+.top-picks>p{
+    color: white;
+    margin: 30px;
+    font-size: 25px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.pick-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    column-gap: 33px;
+    row-gap: 50px;
+    padding: 0 130px 0 130px;
+}
+.pick-cards .card {
+    width: 290px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+  
+.pick-cards .card:hover {
+    box-shadow: 0 2px 15px 2px #9e83df;
+  }
+  
+  .pick-cards .card img{
+    height: 200px;
+    margin-left:50%;
+    margin-top:10%;
+    transform:translate(-50%,-10%);
+    border-radius: 8px;
+    transition: 0.3s;
+    cursor:pointer;
+  }
+  /* .pick-cards .card img:hover{
+    opacity:0.8;
+  } */
+.pick-cards .card-text {
+    padding: 2px 16px;
+    color: black;
+}
+.pick-cards .card-text h2{
+    color:#8c66e4;
+}
+.pick-cards .card-text h6{
+    color:#8e84a6;
+    padding:4px 0 12px 0;
+}
+
+.pick-cards .card-text h3{
+    color:red;
+    font-size:20px;
+    font-weight:1000;
+    padding:12px 0 4px 0;
+
+}
+.pick-cards .card-text h3 span{
+    color:#8e84a6;
+    text-decoration: line-through;
+    font-size: 14px;
+}
+
+.pick-cards .card-text h4{
+    color:#6b647a;
+    font-size: 14px;
+    padding-bottom:12px;
+}
+.pick-cards .card-text h4 span{
+    color:#b62499;
+    font-size: 20px;
+    padding-bottom:12px;
+}
+.pick-cards .card-text .addtocart{
+    background-color: red;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: bolder;
+    border:none;
+    margin-bottom: 10px;
+    border: 2px solid red;
+    transition: 0.3s;
+}
+.pick-cards .card-text .addtocart:hover{
+    background-color: transparent;
+    color: #8c66e4;
+    border: 2px solid #8c66e4;
+}
+
+
+/* Shop by Categories */
+.shopbycategory{
+    padding-top:80px;
+    padding-bottom: 20px;
+}
+.shopbycategory p{
+    color: white;
+    margin: 30px;
+    font-size: 25px;
+    padding-bottom: 30px;
+    text-align: center;
+    
+}
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* row-gap: 150px; */
+}
+.category-image{
+    width:492px;
+    height: 370px;
+    overflow:hidden;
+    
+
+}
+.category-image img{
+    width:492px;
+    height: 370px;
+    transition: 0.5s;
+    opacity:0.5;
+}
+.category-image img:hover{
+    /* width:512px;
+    height: 390px; */
+    transform: scale(1.2);
+    opacity:0.3;
+}
+.category-text a{
+    text-decoration: none;
+    color:white;
+}
+.category-text p{
+    margin-left:50%;
+    transform:translate(-50%,-150%);
+    font-size: 22px;
+    margin-top: -22%;
+    font-weight: 700;
+}
+
+
+.feedback{
+    padding:40px;
+}
+.feedback p{
+    color: white;
+    padding:10px;
+}
+.feedback button{
+    padding: 8px 15px;
+    margin-right:7px;
+    margin-left:10px;
+    outline:none;
+    border:1px solid black;
+    border-radius:2px;
+    transition: 0.3s;
+    cursor:pointer;
+    font-weight: bold;
+}
+.feedback button:hover{
+    background-color:transparent;
+    color:white;
+    border:1px solid white;
+}
+.feedback h3{
+    padding-left:10px;
+    margin-top:15px;
+}
+.feedback h3 a{
+    text-decoration:none;
+    color:#8c66e4;
+    transition: 0.3s;
+}
+.feedback h3 a:hover {
+    color:white;
+}
+
+#continueshopping{
+    display:none;
+}
+#findsimilar{
+    display:none;
+}
+#viewcart{
+    display:none;
+}
+.ques{
+    font-size:25px;
+}
+#findsimilar,#continueshopping,#viewcart{
+    padding:10px 30px;
+    font-size:20px;
+    color:#4210b8
+}
+#findsimilar:hover,#continueshopping:hover,#viewcart:hover{
+    background-color: #8c66e4;
+    border-color: #8c66e4;
+    color:white;
+}
+
+/* Add Popup */
+.add-popup{
+    position: fixed;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    display:none;
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    border-radius: 8px;
+    box-shadow:3px 1px 15px 3px #ccc;
+
+}
+.add-popup p{
+    text-align: center;
+    margin-top:19%;
+    color: white;
+    font-size:18px;
+
+}
+.add-popup a{
+    text-decoration: none;
+    color:white;
+    margin-left:70%;
+    padding: 2px 4px;
+    transition: 0.3s;
+}
+.add-popup a:hover{
+    background-color:#8c66e4;
+    border-radius:3px;
+    padding: 2px 4px;
+}
+.add-popup button{
+    padding: 8px 15px;
+    margin-right:7px;
+    margin-left:10px;
+    outline:none;
+    border:1px solid black;
+    border-radius:2px;
+    transition: 0.3s;
+    cursor:pointer;
+    font-weight: bold;
+}
+.add-popup button:hover{
+    background-color:transparent;
+    color:white;
+    border:1px solid white;
+}
+
+
+
+
+/* Offer Popup  */
+
+.offer-popup{
+    position: fixed;
+    background-color: white;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    border-radius: 20px;
+    display:none;
+}
+.offer-popup .contentBox{
+    position: relative;
+    width:600x;
+    height:400px;
+    background:white;
+    border-radius: 20px;
+    display:flex;
+    box-shadow: 0px 5px 15px black;
+}
+.contentBox .imgBx{
+    position:relative;
+    width:300px;
+    height:400px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.contentBox .imgBx img{
+    position: relative;
+    max-width: 250px;
+}
+.contentBox .content{
+    position:relative;
+    width:300px;
+    height:400px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.contentBox .content h3{
+    color:#333;
+    line-height:1em;
+    font-weight:300;
+    font-size:2em;
+}
+
+.contentBox .content h2{
+    font-size: 4em;
+    color:#ff4d54;
+    line-height:1em;
+}
+.contentBox .content h2 span{
+    color:#333;
+    font-size:0.75em;
+}
+.contentBox .content p{
+    font-weight:300;
+}
+.contentBox .content a{
+    display:inline-block;
+    padding: 10px 20px;
+    background: #ff4d54;
+    color:#fff;
+    margin-top:15px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.offer-popup .close{
+    position:absolute;
+    top:20px;
+    right:20px;
+    width:40px;
+    height:40px;
+    font-size: 30px;
+    background-repeat: no-repeat;
+    background-size: 10px;
+    background-position: center;
+    cursor:pointer;
+    border-radius: 50%;
+    z-index: 10;
+    border:none;
+}
